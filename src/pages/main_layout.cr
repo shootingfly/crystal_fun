@@ -30,8 +30,8 @@ abstract class MainLayout
         CSS
       end
 
-      body class: "mdui-appbar-with-toolbar mdui-theme-primary-amber" do
-        div class: "mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide" do
+      body class: "mdui-theme-primary-amber" do
+        div class: "mdui-appbar" do
           div class: "mdui-toolbar mdui-color-theme" do
             link to: "javascript:;", class: "mdui-btn mdui-btn-icon" do
               i "menu", class: "mdui-icon material-icons"            

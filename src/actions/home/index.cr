@@ -1,5 +1,5 @@
 class Home::Index < BrowserAction
   get "/" do
-    render HomePage
+    redirect to: Topics::Index
   end
 end
